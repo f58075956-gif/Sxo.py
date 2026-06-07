@@ -1,0 +1,35 @@
+{
+  "name": "lua-dumper-bot",
+  "version": "2.0.0",
+  "description": "High-end Discord bot for Lua script analysis, deobfuscation, and bytecode reconstruction",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "winston": "^3.11.0",
+    "node-cache": "^5.1.2",
+    "p-queue": "^7.4.1",
+    "quick.db": "^9.1.7",
+    "axios": "^1.6.7",
+    "chalk": "^4.1.2",
+    "string-similarity": "^4.0.4",
+    "lz-string": "^1.5.0",
+    "js-base64": "^3.7.7",
+    "prettier": "^3.2.4",
+    "vm2": "^3.9.19",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
